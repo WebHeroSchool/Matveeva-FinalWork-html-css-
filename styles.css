@@ -170,6 +170,9 @@ header{
 .what__three{
   margin-bottom: 0;
 }
+.slider{
+  display: none;
+}
 
 /*Форма*/
 .questions{
@@ -353,30 +356,60 @@ header{
 
   /*Что могу*/
   .title__main_what{
-    
+    font: 900 16px/19px 'Montserrat', sans-serif;
+    padding-top: 45px;
+    margin: 0 50px 35px 50px;
   }
   .what__one,.what__two,.what__three{
-    display: flex;
-    align-items:center;
-    padding-bottom: 78px;
-  }
-  .what__two{
-    display: flex;
-    justify-content: flex-end;
-    text-align: right;
+    display: none;
   }
   .what{
-    margin: 0 9%;
-    height: 27.4%;
+    height: 15%;
+  }
+  .sliders{
+    width: 320px;
+    height: 372px;
+
+  }
+  .slider{
+    display: block;
+    margin: 0;
+    padding: 0;
+    height: 65%;
+    overflow: hidden;
+    border: 1px solid #000;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+  }
+  .slide{
+    padding: 17px 0;
+    text-align: center;
+  }
+  .navigation{
+    position: absolute;
+    display: flex;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .bar{
+    width: 15px;
+    height: 15px;
+    background: #000;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-right: 16px;
+  }
+  input{
+  display: none;
   }
   .what__title{
-    font: 600 30px/36px 'Montserrat', sans-serif;
-    color: #585858;
+    font: 600 16px/19px 'Montserrat', sans-serif;
+    padding-top: 7px;
     padding-bottom: 10px;
   }
   .what__subtitle{
-    font: 500 20px/24px 'Montserrat', sans-serif;
-    color: #585858;
+    font: 500 14px/17px 'Montserrat', sans-serif;
   }
   .what__text{
     padding: 0 25px;
