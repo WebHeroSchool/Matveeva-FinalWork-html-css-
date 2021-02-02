@@ -1,0 +1,421 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+.wrapper{
+  height:3473px;
+}
+header{
+  margin-top: 0.9%;
+  margin-right:0;
+  padding: 29px 0 29px 0;
+  height: 1.1%;
+  width: 91%;
+  display:flex;
+  justify-content: flex-end;
+}
+.liner{
+  width: 100%;
+  height: 3px;
+  background: #330099;
+}
+.menu__item_first{
+  margin-right: 0;
+  text-decoration: none;
+  color: #585858;
+  font: 600 20px/24px 'Gilroy', arial, helvetica, sans-serif;
+  padding: 13px 5px;
+  transition: color .5s ease;
+}
+.menu__item_second{
+  margin-right: 6px;
+  text-decoration: none;
+  color: #585858;
+  font: 600 20px/24px 'Gilroy', arial, helvetica, sans-serif;
+  padding: 13px 30px;
+  transition: color .5s ease;
+}
+.menu__item_first:hover,.menu__item_second:hover{
+  color: #330099;
+}
+.menu__item_third{
+  text-decoration: none;
+  margin-right: 0;
+  color: #fff;
+  background: #330099;
+  border-radius: 50px;
+  font: 800 20px/24px 'Montserrat', arial, helvetica, sans-serif;
+  padding: 12px 30px;
+  transition: background .5s ease;
+}
+.menu__item_third:hover{
+  color: #fff;
+  background: #FFDA45;
+}
+
+/*Лицевой блок*/
+.main{
+  height: 481px;
+  background: url(img/mainback.jpg) no-repeat;
+  width: 100%;
+  background-color: #dbba16;
+  position: absolute;
+}
+.main__title{
+  font: 900 40px/49px 'Montserrat', sans-serif;
+  text-align: right;
+  margin: 149px 130px 8px 0;
+  color: #330099;
+
+}
+.main__subtitle{
+  font: 700 30px/36px 'Montserrat', sans-serif;
+  text-align: right;
+  margin-right: 130px;
+  color: #fff;
+  letter-spacing: 2px;
+}
+
+/*Почему*/
+.why{
+  height: 747px;
+  margin-top: 481px;
+  background: #F9F9F9;
+}
+.title__main, .title__main_what{
+  font: 900 30px/36px 'Montserrat', sans-serif;
+  text-align: center;
+  align-items: center;
+  padding-top: 89px;
+  color: #585858;
+  margin-bottom: 50px;
+}
+.why__items{
+  display: flex;
+  justify-content: center;
+  margin-left: 55px;
+  margin-bottom: 117px;
+  margin-right: 55px;
+  text-align: center;
+}
+.why__title_one{
+  font: 900 30px/36px 'Montserrat', sans-serif;
+  color: #585858;
+  margin-bottom: 10px;
+  padding-top: 37px;
+  letter-spacing: 0.2px;
+}
+.why__title_two{
+  font: 900 30px/36px 'Montserrat', sans-serif;
+  color: #585858;
+  margin-bottom: 30px;
+  padding-top: 30px;
+}
+.why__title_last{
+  padding-top: 0;
+  font: 900 30px/36px 'Montserrat', sans-serif;
+  color: #585858;
+  margin-bottom: 10px;
+  padding-right: 12px;
+}
+.why__subtitle{
+  font: 400 20px/25px 'Montserrat', sans-serif;
+  color: #585858;
+}
+.why__one,.why__two{
+  margin-right: 140px;
+}
+.why__button{
+  text-decoration: none;
+  padding: 21px 37px;
+  background: #330099;
+  border-radius: 50px;
+  color: #FFDA45;
+  font: 800 20px/24px 'Montserrat', sans-serif;
+  margin-left: 38%;
+  transition: 1s ease;
+}
+.why__button:hover{
+  background: #585858;
+  color: #fff;
+}
+
+/*Что могу*/
+.what__one,.what__two,.what__three{
+  display: flex;
+  align-items:center;
+  padding-bottom: 78px;
+}
+.what__two{
+  display: flex;
+  justify-content: flex-end;
+  text-align: right;
+}
+.what{
+  margin: 0 9%;
+  height: 27.4%;
+}
+.what__title{
+  font: 600 30px/36px 'Montserrat', sans-serif;
+  color: #585858;
+  padding-bottom: 10px;
+}
+.what__subtitle{
+  font: 500 20px/24px 'Montserrat', sans-serif;
+  color: #585858;
+}
+.what__text{
+  padding: 0 25px;
+}
+.what__three{
+  margin-bottom: 0;
+}
+.slider{
+  display: none;
+}
+
+/*Форма*/
+.questions{
+  background: rgba(51, 0, 153, 0.12);
+  margin:auto;
+}
+.title__main_question{
+  font: 900 30px/36px 'Montserrat', sans-serif;
+  text-align: center;
+  align-items: center;
+  padding: 59px 0 36px 0;
+  color: #585858;
+}
+.img{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 49px;
+}
+.title__form{
+  font: 600 20px/24px 'Montserrat', sans-serif;
+  text-align: center;
+  color: #585858;
+  margin-bottom: 36px;
+}
+.form{
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  align-items: center;
+}
+.put{
+  background: #FBFBFB;
+  margin-bottom: 20px;
+  padding: 26px 40px;
+  border-radius: 50px;
+  border: 1px solid #E9E9E9;
+  box-sizing: border-box;
+  width: 300px;
+  font: 600 15px/19px 'Montserrat', sans-serif;
+  color: #858585;
+}
+.button__form{
+  width: 300px;
+  background: #4AB272;
+  color: #fff;
+  margin-bottom: 61px;
+  padding: 23px 0;
+  border-radius: 50px;
+  border: 1px solid #E9E9E9;
+  box-sizing: border-box;
+  font: 900 20px/25px 'Montserrat', sans-serif;
+  cursor: pointer;
+  transition: 1s ease;
+}
+.button__form:hover{
+  background: #585858;
+  color: #fff;
+}
+
+/*Подвал*/
+.footer{
+  background: #330099;
+  text-align: center;
+}
+.footer__title{
+  font: 400 20px/23px 'Roboto', sans-serif;
+  color: #fff;
+  padding-top: 60px;
+  margin-bottom: 20px;
+}
+.social{
+  margin-right: 100px;
+}
+.end{
+  font: 400 20px/23px 'Roboto', sans-serif;
+  color: #fff;
+  padding-top: 76px;
+  padding-bottom: 60px;
+}
+
+@media (max-width:320px) {
+  .liner{
+    display: none;
+  }
+  .menu__item_first,.menu__item_second{
+      display: none;
+  }
+  .wrapper{
+    width: 320px;
+  }
+  header{
+    padding: 0;
+    height: 50px;
+  }
+  .menu{
+    margin: 0;
+    padding: 13px 43px 14px 0;
+  }
+  .menu__item_third{
+    margin: 0;
+    font: 800 8px/10px 'Montserrat', arial, helvetica, sans-serif;
+    padding: 5px 11px;
+  }
+  /*Лицевой блок*/
+  .main{
+    height: 26.5%;
+    background: url(img/mainback2.png) no-repeat;
+    background-size: contain;
+    width: 320px;
+  }
+  .main__title{
+    font: 900 20px/24px 'Montserrat', sans-serif;
+    text-align: right;
+    margin: 25px 30px 2px 40px;
+    color: #330099;
+  }
+  .main__subtitle{
+    font: 700 16px/19px 'Montserrat', sans-serif;
+    text-align: right;
+    margin-right: 30px;
+    color: #fff;
+    letter-spacing: 1px;
+  }
+
+  /*Почему*/
+  .why{
+    height: 907px;
+    margin-top: 70%;
+    background: #F9F9F9;
+  }
+  .title__main{
+    font: 900 16px/19px 'Montserrat', sans-serif;
+    padding-top: 55px;
+    margin: 0 50px 42px 50px;
+  }
+  .why__img{
+    height: 45px;
+    width: 55px;
+  }
+  .why__items{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 17px;
+    text-align: center;
+  }
+  .why__title_one{
+    font: 900 16px/19px 'Montserrat', sans-serif;
+    margin-bottom: 10px;
+    padding-top: 3px;
+    letter-spacing: 0.2px;
+  }
+  .why__title_two{
+    font: 900 16px/19px 'Montserrat', sans-serif;
+    margin-bottom: 30px;
+    padding-top: 3px;
+    margin-bottom: 10px;
+  }
+  .why__title_last{
+    padding-top: 2px;
+    font: 900 16px/19px 'Montserrat', sans-serif;
+    margin-bottom: 10px;
+    padding-right: 12px;
+  }
+  .why__subtitle{
+    font: 500 16px/19px 'Montserrat', sans-serif;
+    margin-bottom: 40px;
+    letter-spacing: 0.5px;
+  }
+  .why__one,.why__two{
+    margin-right: 0;
+  }
+  .why__button{
+    padding: 16px 19px;
+    font: 800 16px/19px 'Montserrat', sans-serif;
+    margin-left: 10%;
+  }
+
+  /*Что могу*/
+  .title__main_what{
+    font: 900 16px/19px 'Montserrat', sans-serif;
+    padding-top: 45px;
+    margin: 0 50px 35px 50px;
+  }
+  .what__one,.what__two,.what__three{
+    display: none;
+  }
+  .what{
+    height: 15%;
+  }
+  .sliders{
+    width: 320px;
+    height: 372px;
+
+  }
+  .slider{
+    display: block;
+    margin: 0;
+    padding: 0;
+    height: 65%;
+    overflow: hidden;
+    border: 1px solid #000;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+  }
+  .slide{
+    padding: 17px 0;
+    text-align: center;
+  }
+  .navigation{
+    position: absolute;
+    display: flex;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .bar{
+    width: 15px;
+    height: 15px;
+    background: #000;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-right: 16px;
+  }
+  input{
+  display: none;
+  }
+  .what__title{
+    font: 600 16px/19px 'Montserrat', sans-serif;
+    padding-top: 7px;
+    padding-bottom: 10px;
+  }
+  .what__subtitle{
+    font: 500 14px/17px 'Montserrat', sans-serif;
+  }
+  .what__text{
+    padding: 0 25px;
+  }
+  .what__three{
+    margin-bottom: 0;
+  }
+
+}
