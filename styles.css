@@ -461,7 +461,8 @@ header{
   .what{
     height: 15%;
   }
-  /*.sliders{
+      /* СЛАЙДЕР*/
+  .sliders{
     width: 320px;
     height: 372px;
 
@@ -511,7 +512,7 @@ header{
   }
   .input__mobile{
   display: none;
-  }*/
+  }
 
   .what__title{
     font: 600 16px/19px 'Montserrat', sans-serif;
