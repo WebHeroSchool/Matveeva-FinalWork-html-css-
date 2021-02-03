@@ -607,7 +607,7 @@ header{
       position: absolute;
       width: 100%;
       height: 3px;
-      background-color: #330099;
+      background-color: #000;
     }
     .menu__button > span::before {
       content: '';
@@ -667,9 +667,7 @@ header{
       opacity: 30%;
    }
 
-
-
-  /*Лицевой блок*/
+/*Лицевой блок*/
   .main{
     height: 20%;
     background: url(img/mainback2.png) no-repeat;
