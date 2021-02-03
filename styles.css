@@ -2,9 +2,6 @@
   padding: 0;
   margin: 0;
 }
-.wrapper{
-  height:3473px;
-}
 header{
   margin-top: 0.9%;
   margin-right:0;
@@ -52,6 +49,9 @@ header{
   color: #fff;
   background: #FFDA45;
 }
+.burger{
+  display: none;
+}
 
 /*Лицевой блок*/
 .main{
@@ -59,12 +59,13 @@ header{
   background: url(img/mainback.jpg) no-repeat;
   width: 100%;
   background-color: #dbba16;
-  position: absolute;
+  /*position: absolute;*/
 }
 .main__title{
   font: 900 40px/49px 'Montserrat', sans-serif;
   text-align: right;
-  margin: 149px 130px 8px 0;
+  margin: 0 130px 10px 750px;
+  padding-top: 149px;
   color: #330099;
 
 }
@@ -79,10 +80,10 @@ header{
 /*Почему*/
 .why{
   height: 747px;
-  margin-top: 481px;
+  /*margin-top: 481px;*/
   background: #F9F9F9;
 }
-.title__main, .title__main_what{
+.why__title-main, .what__title-main{
   font: 900 30px/36px 'Montserrat', sans-serif;
   text-align: center;
   align-items: center;
@@ -112,7 +113,7 @@ header{
   padding-top: 30px;
 }
 .why__title_last{
-  padding-top: 0;
+  padding-top: 8%;
   font: 900 30px/36px 'Montserrat', sans-serif;
   color: #585858;
   margin-bottom: 10px;
@@ -179,7 +180,7 @@ header{
   background: rgba(51, 0, 153, 0.12);
   margin:auto;
 }
-.title__main_question{
+.question__main-title{
   font: 900 30px/36px 'Montserrat', sans-serif;
   text-align: center;
   align-items: center;
@@ -196,7 +197,8 @@ header{
   font: 600 20px/24px 'Montserrat', sans-serif;
   text-align: center;
   color: #585858;
-  margin-bottom: 36px;
+  margin: 0 540px 36px 540px;
+  /*margin-bottom: 36px;*/
 }
 .form{
   display: flex;
@@ -254,64 +256,126 @@ header{
   padding-bottom: 60px;
 }
 
-@media (max-width:320px) {
-  .liner{
-    display: none;
+@media (max-width:1350px) {
+  .main__title{
+    margin: 0 10% 1% 40%;
   }
-  .menu__item_first,.menu__item_second{
-      display: none;
+  .title__form{
+    margin: 0 450px 36px 450px;
   }
-  .wrapper{
-    width: 320px;
+}
+
+@media (max-width:1100px) {
+  .main__subtitle{
+    margin-right: 110px;
   }
+  .why__items{
+    margin-bottom: 95px;
+    margin-left: 95px;
+  }
+  .why__one,.why__two{
+    margin-right: 80px;
+  }
+  .why__title_two{
+    margin-bottom: 3%;
+  }
+  .why__title_one,.why__title_two,.why__title_last{
+    font-size: 25px;
+  }
+  .title__form{
+    margin: 0 350px 36px 350px;
+  }
+}
+
+@media (max-width:950px) {
   header{
-    padding: 0;
-    height: 50px;
-  }
-  .menu{
-    margin: 0;
-    padding: 13px 43px 14px 0;
-  }
-  .menu__item_third{
-    margin: 0;
-    font: 800 8px/10px 'Montserrat', arial, helvetica, sans-serif;
-    padding: 5px 11px;
-  }
-  /*Лицевой блок*/
-  .main{
-    height: 26.5%;
-    background: url(img/mainback2.png) no-repeat;
-    background-size: contain;
-    width: 320px;
+    padding: 20px 0;
   }
   .main__title{
-    font: 900 20px/24px 'Montserrat', sans-serif;
-    text-align: right;
-    margin: 25px 30px 2px 40px;
-    color: #330099;
+    padding-top: 15%;
+    font-size: 30px;
   }
   .main__subtitle{
-    font: 700 16px/19px 'Montserrat', sans-serif;
-    text-align: right;
-    margin-right: 30px;
-    color: #fff;
-    letter-spacing: 1px;
+    font-size: 25px;
+    letter-spacing: 0;
+    margin-right: 100px;
   }
+  .why__subtitle{
+    font-size: 15px;
+  }
+  .what__title{
+    font-size: 25px;
+  }
+  .title__form{
+    font-size: 17px;
+  }
+}
 
-  /*Почему*/
+@media (max-width:850px) {
+  .menu__item_first,.menu__item_second{
+    font-size: 14px;
+  }
+  .menu__item_third{
+    font-size: 15px;
+  }
+  header{
+    padding: 10px 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .liner{
+    height: 2px;
+  }
+  .why__title-main,.what__title-main,.question__main-title{
+    font-size: 25px;
+  }
+  .why__title_one,.why__title_two,.why__title_last{
+    font-size: 19px;
+    line-height: normal;
+  }
+  .why__subtitle{
+    line-height: normal;
+  }
+  .why__button{
+    margin-left: 35%;
+    font-size: 16px;
+  }
   .why{
-    height: 907px;
-    margin-top: 70%;
-    background: #F9F9F9;
+    height: 700px;
   }
-  .title__main{
-    font: 900 16px/19px 'Montserrat', sans-serif;
-    padding-top: 55px;
-    margin: 0 50px 42px 50px;
+  .what__title{
+    font-size: 20px;
+    line-height: normal;
   }
-  .why__img{
-    height: 45px;
-    width: 55px;
+  .what__subtitle{
+    font-size: 16px;
+    line-height: normal;
+  }
+  .title__form{
+    font-size: 15px;
+    margin-right: 200px;
+    margin-left: 200px;
+  }
+  .end{
+    font-size: 14px;
+  }
+}
+
+@media (max-width:650px) {
+  .main__title{
+    font-size: 25px;
+    line-height: normal;
+  }
+  .main__subtitle{
+    font-size: 20px;
+    line-height: normal;
+    margin-right: 70px;
+  }
+  .why__title-main,.what__title-main,.question__main-title{
+    font-size: 20px;
+  }
+  .why__title-main,.what__title-main{
+    padding-top: 70px;
   }
   .why__items{
     display: flex;
@@ -348,6 +412,299 @@ header{
   .why__one,.why__two{
     margin-right: 0;
   }
+  .why{
+    height: 1050px;
+  }
+  .why__button{
+    margin-left: 31%;
+  }
+  .title__form{
+    margin-right: 100px;
+    margin-left: 100px;
+  }
+  .social{
+    margin-right: 60px;
+  }
+  .end{
+    padding-top: 56px;
+    padding-bottom: 40px;
+  }
+}
+
+@media (max-width:500px) {
+  header{
+    width: 95%;
+  }
+  .main__title{
+    margin-left: 30%;
+  }
+  .main__subtitle{
+    margin-right: 50px;
+  }
+  .why__button{
+    margin-left: 20%;
+  }
+  .what{
+    margin: 0 4%;
+  }
+  .what__title{
+    font-size: 15px;
+  }
+}
+
+@media (max-width:458px) {
+  .menu__item_first,.menu__item_second{
+      display: none;
+  }
+  header{
+    padding: 0;
+    height: 40px;
+  }
+  .menu{
+    margin: 0;
+    padding: 8px 70px 14px 0;
+  }
+  .menu__item_third{
+    margin: 0;
+    font: 800 13px/19px 'Montserrat', arial, helvetica, sans-serif;
+    padding: 5px 11px;
+  }
+  .burger{
+    display: block;
+  }
+  #menu__toggle{
+      opacity: 0;
+    }
+    .menu__button {
+      display: flex;
+      align-items: center;
+      position: fixed;
+      top: 1.8%;
+      left: 83.5%;
+      width: 23px;
+      height: 25px;
+      cursor: pointer;
+      z-index: 1;
+    }
+    .menu__button > span,
+    .menu__button > span::before,
+    .menu__button > span::after {
+      display: block;
+      position: absolute;
+      width: 100%;
+      height: 3px;
+      background-color: #330099;
+    }
+    .menu__button > span::before {
+      content: '';
+      top: -8px;
+    }
+    .menu__button > span::after {
+      content: '';
+      top: 8px;
+    }
+    .menu__burger {
+      display: block;
+      position: fixed;
+      visibility: hidden;
+      top: 0;
+      width: 100%;
+      height: 20%;
+      margin: 0;
+      list-style: none;
+      text-align: center;
+      background-color: #e6eaeb;
+      box-shadow: 1px 0 6px rgba(0, 0, 0, 0.2);
+      transition-duration: 0.5s;
+    }
+    .menu__item_burger {
+      display: block;
+      padding: 3px 0;
+      color: #333;
+      margin: 10px 0 30px 0;
+      font: 700 16px/19px Roboto, arial, helvetica, sans-serif;
+      text-decoration: none;
+      transition-duration: 0.5s;
+    }
+    .menu__item_burger:first-child {
+      margin-right: 0;
+      margin-top: 12%;
+    }
+    #menu__toggle:checked ~ .menu__button > span {
+      transform: rotate(45deg);
+    }
+    #menu__toggle:checked ~ .menu__button > span::before {
+      top: 0;
+      transform: rotate(0);
+    }
+    #menu__toggle:checked ~ .menu__button > span::after {
+      top: 0;
+      transform: rotate(90deg);
+    }
+    #menu__toggle:checked ~ .menu__burger {
+      visibility: visible;
+      left: 0;
+    }
+    .bottom{
+      display: none;
+    }
+    .menu__item_burger:hover{
+      color: #330099;
+      opacity: 30%;
+   }
+   .main__title{
+     font: 900 20px/24px 'Montserrat', sans-serif;
+     padding-top: 25%;
+   }
+}
+
+@media (max-width:320px) {
+  .liner{
+    display: none;
+  }
+  .menu__item_first,.menu__item_second{
+      display: none;
+  }
+  .wrapper{
+    width: 320px;
+    /*height:0;*/
+  }
+  header{
+    padding: 0;
+    height: 34px;
+  }
+  .menu{
+    margin: 0;
+    padding: 5px 45px 14px 0;
+  }
+  .menu__item_third{
+    margin: 0;
+    font: 800 8px/10px 'Montserrat', arial, helvetica, sans-serif;
+    padding: 5px 11px;
+  }
+
+  .burger{
+    display: block;
+  }
+  #menu__toggle{
+      opacity: 0;
+    }
+    .menu__button {
+      display: flex;
+      align-items: center;
+      position: fixed;
+      top: 1.5%;
+      left: 83.5%;
+      width: 23px;
+      height: 25px;
+      cursor: pointer;
+      z-index: 1;
+    }
+    .menu__button > span,
+    .menu__button > span::before,
+    .menu__button > span::after {
+      display: block;
+      position: absolute;
+      width: 100%;
+      height: 3px;
+      background-color: #000;
+    }
+    .menu__button > span::before {
+      content: '';
+      top: -8px;
+    }
+    .menu__button > span::after {
+      content: '';
+      top: 8px;
+    }
+    .menu__burger {
+      display: block;
+      position: fixed;
+      visibility: hidden;
+      top: 0;
+      width: 100%;
+      height: 20%;
+      margin: 0;
+      list-style: none;
+      text-align: center;
+      background-color: #e6eaeb;
+      box-shadow: 1px 0 6px rgba(0, 0, 0, 0.2);
+      transition-duration: 0.5s;
+    }
+    .menu__item_burger {
+      display: block;
+      padding: 3px 0;
+      color: #333;
+      margin: 10px 0 30px 0;
+      font: 700 16px/19px Roboto, arial, helvetica, sans-serif;
+      text-decoration: none;
+      transition-duration: 0.5s;
+    }
+    .menu__item_burger:first-child {
+      margin-right: 0;
+      margin-top: 12%;
+    }
+    #menu__toggle:checked ~ .menu__button > span {
+      transform: rotate(45deg);
+    }
+    #menu__toggle:checked ~ .menu__button > span::before {
+      top: 0;
+      transform: rotate(0);
+    }
+    #menu__toggle:checked ~ .menu__button > span::after {
+      top: 0;
+      transform: rotate(90deg);
+    }
+    #menu__toggle:checked ~ .menu__burger {
+      visibility: visible;
+      left: 0;
+    }
+    .bottom{
+      display: none;
+    }
+    .menu__item_burger:hover{
+      color: #330099;
+      opacity: 30%;
+   }
+
+/*Лицевой блок*/
+  .main{
+    height: 20%;
+    background: url(img/mainback2.png) no-repeat;
+    background-size: contain;
+    width: 320px;
+    height: 230px;
+  }
+  .main__title{
+    font: 900 20px/24px 'Montserrat', sans-serif;
+    text-align: right;
+    margin: 0px 30px 2px 40px;
+    color: #330099;
+    padding-top: 25px;
+  }
+  .main__subtitle{
+    font: 700 16px/19px 'Montserrat', sans-serif;
+    text-align: right;
+    margin-right: 30px;
+    color: #fff;
+    letter-spacing: 1px;
+  }
+
+  /*Почему*/
+  .why{
+    height: 907px;
+    /*margin-top: 70%;*/
+    background: #F9F9F9;
+  }
+  .why__title-main{
+    font: 900 16px/19px 'Montserrat', sans-serif;
+    padding-top: 49px;
+    margin: 0 50px 42px 50px;
+  }
+  .why__img{
+    height: 45px;
+    width: 55px;
+  }
   .why__button{
     padding: 16px 19px;
     font: 800 16px/19px 'Montserrat', sans-serif;
@@ -355,9 +712,9 @@ header{
   }
 
   /*Что могу*/
-  .title__main_what{
+  .what__title-main{
     font: 900 16px/19px 'Montserrat', sans-serif;
-    padding-top: 45px;
+    padding-top: 40px;
     margin: 0 50px 35px 50px;
   }
   .what__one,.what__two,.what__three{
@@ -366,56 +723,104 @@ header{
   .what{
     height: 15%;
   }
-  .sliders{
-    width: 320px;
-    height: 372px;
+    .slider{
+      display: block;
+    }
+    .slider__content{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      position: relative;
+      text-align: center;
+    }
+    .sl{
+      padding-top: 3%;
+    }
+    .what__title{
+      font: 600 16px/19px 'Montserrat', sans-serif;
+      padding-right: 25px;
+      padding-left: 25px;
+    }
+    .what__subtitle{
+      font: 500 14px/17px 'Montserrat', sans-serif;
+      padding-right: 30px;
+      padding-left: 30px;
+      margin-bottom: 48px;
+    }
+    .circle1{
+      width: 15px;
+      height: 15px;
+      border-radius: 50%;
+      background: #FFDA45;
+      margin-left: 111px;
+      margin-bottom: 32px;
+    }
+    .circle{
+      width: 15px;
+      height: 15px;
+      border-radius: 50%;
+      background: #fff;
+      border: 1px solid #E1E6E9;
+      margin-left: 14px;
+    }
+    .switch{
+      display: flex;
+      flex-direction: row;
+    }
 
+  /*Форма*/
+  .questions{
+    background: rgba(51, 0, 153, 0.12);
+    margin:auto;
   }
-  .slider{
-    display: block;
-    margin: 0;
-    padding: 0;
-    height: 65%;
-    overflow: hidden;
-    border: 1px solid #000;
-    display: flex;
-    align-items: center;
-    flex-direction: row;
+  .question__main-title{
+    font: 900 16px/19px 'Montserrat', sans-serif;
+    padding: 31px 0 22px 0;
   }
-  .slide{
-    padding: 17px 0;
-    text-align: center;
+  .img{
+    margin-bottom: 26px;
   }
-  .navigation{
-    position: absolute;
-    display: flex;
-    left: 50%;
-    transform: translateX(-50%);
-  }
-  .bar{
-    width: 15px;
-    height: 15px;
-    background: #000;
-    border-radius: 50%;
-    cursor: pointer;
-    margin-right: 16px;
-  }
-  input{
-  display: none;
-  }
-  .what__title{
+  .title__form{
     font: 600 16px/19px 'Montserrat', sans-serif;
-    padding-top: 7px;
-    padding-bottom: 10px;
+    margin-bottom: 23px;
+    margin-left: 36px;
+    margin-right: 36px;
   }
-  .what__subtitle{
-    font: 500 14px/17px 'Montserrat', sans-serif;
+  .put{
+    margin-bottom: 8px;
+    padding: 19px 25px;
+    width: 260px;
+    font: 600 10px/12px 'Montserrat', sans-serif;
   }
-  .what__text{
-    padding: 0 25px;
+  .button__form{
+    width: 260px;
+    margin-top: 22px;
+    margin-bottom: 31px;
+    padding: 15px 0;
+    font: 900 16px/19px 'Montserrat', sans-serif;
   }
-  .what__three{
-    margin-bottom: 0;
+
+  /*Подвал*/
+  .footer__title{
+    font: 500 14px/16px 'Roboto', sans-serif;
+    padding-top: 30px;
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-bottom: 14px;
+  }
+  .social{
+    margin-right: 75px;
+  }
+  .img__socials{
+    width: 35px;
+    height: 35px;
+  }
+
+  .end{
+    font: 400 14px/16px 'Roboto', sans-serif;
+    padding-top: 44px;
+    padding-bottom: 33px;
   }
 
 }
