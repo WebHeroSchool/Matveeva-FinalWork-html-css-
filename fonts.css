@@ -4,60 +4,23 @@
     font-weight: normal;
     font-style: normal;
 }
-@font-face {
-    font-family: 'Montserrat_BlackItalic';
-    src: url('fonts/Montserrat-BlackItalic.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
+
 @font-face {
     font-family: 'Montserrat_Bold';
     src: url('fonts/Montserrat-Bold.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-}
-@font-face {
-    font-family: 'Montserrat_BoldItalic';
-    src: url('fonts/Montserrat-BoldItalic.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Montserrat_ExtraBold';
-    src: url('fonts/Montserrat-ExtraBold.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'Montserrat-ExtraBoldItalic';
-    src: url('Montserrat-ExtraBoldItalic.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'Montserrat-ExtraBoldItalic';
-    src: url('fonts/Montserrat-ExtraBoldItalic') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'Montserrat-ExtraBoldItalic';
-    src: url('fonts/Montserrat-ExtraBoldItalic.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
 
 @font-face {
     font-family: 'Montserrat';
-    src: url('Montserrat-Regular.woff') format('woff');
+    src: url('fonts/Montserrat-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Gilroy';
-    src: url('Gilroy-Regular.woff') format('woff');
+    src: url('fonts/Gilroy-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
