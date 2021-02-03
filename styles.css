@@ -82,7 +82,7 @@ header{
   margin-top: 481px;
   background: #F9F9F9;
 }
-.title__main, .title__main_what{
+.why__title-main, .what__title-main{
   font: 900 30px/36px 'Montserrat', sans-serif;
   text-align: center;
   align-items: center;
@@ -179,7 +179,7 @@ header{
   background: rgba(51, 0, 153, 0.12);
   margin:auto;
 }
-.title__main_question{
+.question__main-title{
   font: 900 30px/36px 'Montserrat', sans-serif;
   text-align: center;
   align-items: center;
@@ -263,6 +263,7 @@ header{
   }
   .wrapper{
     width: 320px;
+    /*height:auto;*/
   }
   header{
     padding: 0;
@@ -380,7 +381,6 @@ header{
     border: 1px solid #000;
     display: flex;
     align-items: center;
-    flex-direction: row;
   }
   .slide{
     padding: 17px 0;
@@ -400,7 +400,7 @@ header{
     cursor: pointer;
     margin-right: 16px;
   }
-  input{
+  .input__mobile{
   display: none;
   }
   .what__title{
@@ -411,11 +411,59 @@ header{
   .what__subtitle{
     font: 500 14px/17px 'Montserrat', sans-serif;
   }
-  .what__text{
-    padding: 0 25px;
+
+  /*Форма*/
+  .questions{
+    background: rgba(51, 0, 153, 0.12);
+    margin:auto;
   }
-  .what__three{
-    margin-bottom: 0;
+  .title__main_question{
+    font: 900 16px/19px 'Montserrat', sans-serif;
+    padding: 31px 0 22px 0;
+  }
+  .img{
+    margin-bottom: 26px;
+  }
+  .title__form{
+    font: 600 16px/19px 'Montserrat', sans-serif;
+    margin-bottom: 23px;
+    margin-left: 36px;
+    margin-right: 36px;
+  }
+  .put{
+    margin-bottom: 8px;
+    padding: 19px 25px;
+    width: 260px;
+    font: 600 10px/12px 'Montserrat', sans-serif;
+  }
+  .button__form{
+    width: 260px;
+    margin-top: 22px;
+    margin-bottom: 31px;
+    padding: 15px 0;
+    font: 900 16px/19px 'Montserrat', sans-serif;
+  }
+
+  /*Подвал*/
+  .footer__title{
+    font: 500 14px/16px 'Roboto', sans-serif;
+    padding-top: 30px;
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-bottom: 14px;
+  }
+  .social{
+    margin-right: 75px;
+  }
+  .img__socials{
+    width: 35px;
+    height: 35px;
+  }
+
+  .end{
+    font: 400 14px/16px 'Roboto', sans-serif;
+    padding-top: 44px;
+    padding-bottom: 33px;
   }
 
 }
