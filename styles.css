@@ -62,7 +62,7 @@ header{
   /*position: absolute;*/
 }
 .main__title{
-  font: 900 40px/49px 'Montserrat', sans-serif;
+  font: 900 40px/49px 'Montserrat_Bold', sans-serif;
   text-align: right;
   margin: 0 130px 10px 750px;
   padding-top: 149px;
@@ -70,7 +70,7 @@ header{
 
 }
 .main__subtitle{
-  font: 700 30px/36px 'Montserrat', sans-serif;
+  font: 700 30px/36px 'Montserrat_Bold', sans-serif;
   text-align: right;
   margin-right: 130px;
   color: #fff;
@@ -84,7 +84,7 @@ header{
   background: #F9F9F9;
 }
 .why__title-main, .what__title-main{
-  font: 900 30px/36px 'Montserrat', sans-serif;
+  font: 900 30px/36px 'Montserrat_Bold', sans-serif;
   text-align: center;
   align-items: center;
   padding-top: 89px;
@@ -100,21 +100,21 @@ header{
   text-align: center;
 }
 .why__title_one{
-  font: 900 30px/36px 'Montserrat', sans-serif;
+  font: 900 30px/36px 'Montserrat_Bold', sans-serif;
   color: #585858;
   margin-bottom: 10px;
   padding-top: 37px;
   letter-spacing: 0.2px;
 }
 .why__title_two{
-  font: 900 30px/36px 'Montserrat', sans-serif;
+  font: 900 30px/36px 'Montserrat_Bold', sans-serif;
   color: #585858;
   margin-bottom: 30px;
   padding-top: 30px;
 }
 .why__title_last{
   padding-top: 8%;
-  font: 900 30px/36px 'Montserrat', sans-serif;
+  font: 900 30px/36px 'Montserrat_Bold', sans-serif;
   color: #585858;
   margin-bottom: 10px;
   padding-right: 12px;
@@ -132,7 +132,7 @@ header{
   background: #330099;
   border-radius: 50px;
   color: #FFDA45;
-  font: 800 20px/24px 'Montserrat', sans-serif;
+  font: 800 20px/24px 'Montserrat_Bold', sans-serif;
   margin-left: 38%;
   transition: 1s ease;
 }
@@ -162,7 +162,7 @@ header{
   padding-bottom: 10px;
 }
 .what__subtitle{
-  font: 500 20px/24px 'Montserrat', sans-serif;
+  font: 600 20px/24px 'Montserrat', sans-serif;
   color: #585858;
 }
 .what__text{
@@ -181,7 +181,7 @@ header{
   margin:auto;
 }
 .question__main-title{
-  font: 900 30px/36px 'Montserrat', sans-serif;
+  font: 900 30px/36px 'Montserrat_Bold', sans-serif;
   text-align: center;
   align-items: center;
   padding: 59px 0 36px 0;
