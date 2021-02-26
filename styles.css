@@ -108,14 +108,21 @@ header{
   height: 3px;
   background: #FFDA45;
 }
-.me__button{
+.buttons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.me__button-works{
+  margin-left: 5%;
+}
+.me__button-sert, .me__button-works{
     text-decoration: none;
     padding: 21px 37px;
     background: #330099;
     border-radius: 50px;
     color: #FFDA45;
     font: 800 20px/24px 'Montserrat_Bold', sans-serif;
-    margin-left: 38%;
     transition: 1s ease;
   }
 .me__button:hover{
