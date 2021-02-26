@@ -14,9 +14,9 @@
     <div class="liner"></div>
     <header>
       <nav class="menu">
-        <a class="menu__item_first" href="#">Мои навыки</a>
-        <a class="menu__item_second" href="#">Оставить заявку</a>
-        <a class="menu__item_third" href="#">Позвонить</a>
+        <a class="menu__item_first" href="#ican">Мои навыки</a>
+        <a class="menu__item_second" href="#call">Оставить заявку</a>
+        <!--<a class="menu__item_third" href="#">Позвонить</a>-->
       </nav>
       <div class="burger">
             <input id="menu__toggle" type="checkbox" />
@@ -34,6 +34,20 @@
       <h1 class="main__title">Разработка сайтов, игр и приложений</h1>
       <p class="main__subtitle">Помогаю воплощать<br>мечты в реальность</p>
     </section>
+
+    <section class = "me">
+      <h1 class="me__title-main">Кто я?</h1>
+      <div class="me__contant">
+        <img src="img/myphoto.jpg" class="me__img" alt="me">
+        <div class="description">
+           <h1 class="me__title_one"> Меня зовут Екатерина Матвеева</h1>
+           <div class="line"></div>
+           <p class="me__subtitle">Я являюсь Junior веб-разработчиком и этот сайт я написала в качестве своей итоговой работы по HTML и CSS!<br>Я еще учусь, но уже очень хочу начать творить и работать в команде крутых веб-разработчиков, знающих свое дело!<br>Помимо хороших знаний по верстке, я так же учуть JS и React, потому что я люблю учиться и развиваться!<br>Ниже предлагаю ознакомиться с моими работами и сертификатами</p>
+        </div>
+      </div>
+      <a class="me__button" href="https://lk.webheroschool.ru/pl/136427557">Мои работы</a>
+    </section>
+
     <section class="why">
       <h1 class="why__title-main">Почему вам стоит обратиться ко мне</h1>
       <div class="why__items">
@@ -53,9 +67,9 @@
           <p class="why__subtitle">Я внимательно работаю<br>над каждым проектом.<br>Я очень люблю свою работу,<br>поэтому вас обрадует результат<br>проделанной работы.</p>
         </div>
       </div>
-       <a class="why__button" href="#">Получить консультацию</a>
+       <a class="why__button" href="#call">Получить консультацию</a>
     </section>
-    <section class="what">
+    <section class="what" id = "ican">
       <h1 class="what__title-main">Что я могу</h1>
       <div class="what__items">
         <div class="what__one">
@@ -80,20 +94,9 @@
           </div>
         </div>
       </div>
-      <div class="slider">
-        <div class="slider__content">
-          <img src="img/what1.svg" alt="what">
-          <h2 class="what__title sl">Я умею писать валидный<br>и семмантически верный код<br>для вашего сайта или приложения</h2>
-          <p class="what__subtitle">Ваш сайт и приложение будут<br>верно работать, благодаря моей верстке</p>
-        </div>
-        <span class="switch">
-          <div class="circle1"></div>
-          <div class="circle"></div>
-          <div class="circle"></div>
-        </span>
-      </div>
     </section>
-    <section class="questions">
+
+    <section class="questions" id = "call">
       <h1 class="question__main-title">Есть вопросы?</h1>
       <div class="img">
         <img src="img/question.svg" alt="questions">
@@ -115,4 +118,5 @@
       </div>
       <h4 class="end">2020 © WebHero School</h4>
     </footer>
+    <script src="script.js" type="text/javascript"></script>
   </body>
