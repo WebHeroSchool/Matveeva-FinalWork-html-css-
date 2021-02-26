@@ -77,13 +77,58 @@ header{
   letter-spacing: 2px;
 }
 
+/*Кто я*/
+.me__img{
+  height: 400px;
+  width: 330px;
+}
+.me__contant{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 7% 8% 7%;
+}
+.description{
+  margin-left: 5%;
+}
+.me__title_one{
+  font: 800 25px/30px 'Montserrat_Bold', sans-serif;
+  color: #585858;
+  margin-bottom: 10px;
+  padding-top: 37px;
+  letter-spacing: 0.2px;
+}
+.me__subtitle{
+  font: 400 20px/25px 'Montserrat', sans-serif;
+  color: #585858;
+  margin-top: 3%;
+}
+.line{
+  width: 100%;
+  height: 3px;
+  background: #FFDA45;
+}
+.me__button{
+    text-decoration: none;
+    padding: 21px 37px;
+    background: #330099;
+    border-radius: 50px;
+    color: #FFDA45;
+    font: 800 20px/24px 'Montserrat_Bold', sans-serif;
+    margin-left: 38%;
+    transition: 1s ease;
+  }
+.me__button:hover{
+    background: #585858;
+    color: #fff;
+  }
+
 /*Почему*/
 .why{
   height: 747px;
-  /*margin-top: 481px;*/
   background: #F9F9F9;
 }
-.why__title-main, .what__title-main{
+.why__title-main, .what__title-main, .me__title-main{
   font: 900 30px/36px 'Montserrat_Bold', sans-serif;
   text-align: center;
   align-items: center;
@@ -371,7 +416,20 @@ header{
     line-height: normal;
     margin-right: 70px;
   }
-  .why__title-main,.what__title-main,.question__main-title{
+  .me__contant{
+    display: block;
+  }
+  .me__img{
+    height: 390px;
+    width: 320px;
+    align-content: center;
+    padding-left: 19%;
+  }
+  .description{
+    margin-left: 0;
+    text-align: center;
+  }
+  .why__title-main,.what__title-main,.question__main-title, .me__title_one{
     font-size: 20px;
   }
   .why__title-main,.what__title-main{
@@ -404,7 +462,7 @@ header{
     margin-bottom: 10px;
     padding-right: 12px;
   }
-  .why__subtitle{
+  .why__subtitle, .me__subtitle{
     font: 500 16px/19px 'Montserrat', sans-serif;
     margin-bottom: 40px;
     letter-spacing: 0.5px;
@@ -443,6 +501,10 @@ header{
   }
   .why__button{
     margin-left: 20%;
+  }
+  .me__button{
+    margin-left: 30%;
+    font-size: 16px;
   }
   .what{
     margin: 0 4%;
@@ -690,10 +752,17 @@ header{
     letter-spacing: 1px;
   }
 
-  /*Почему*/
+  .me__img{
+    height: 320px;
+    width: 280px;
+    padding: 0;
+  }
+  .me__button{
+    margin-left: 20%;
+  }
+
+/*Почему*/
   .why{
-    height: 907px;
-    /*margin-top: 70%;*/
     background: #F9F9F9;
   }
   .why__title-main{
@@ -716,6 +785,7 @@ header{
     font: 900 16px/19px 'Montserrat', sans-serif;
     padding-top: 40px;
     margin: 0 50px 35px 50px;
+    display: none;
   }
   .what__one,.what__two,.what__three{
     display: none;
