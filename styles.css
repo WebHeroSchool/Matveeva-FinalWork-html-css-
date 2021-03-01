@@ -123,9 +123,10 @@ header{
     border-radius: 50px;
     color: #FFDA45;
     font: 800 20px/24px 'Montserrat_Bold', sans-serif;
+    margin-bottom: 5%;
     transition: 1s ease;
   }
-.me__button:hover{
+.me__button-sert:hover,.me__button-works:hover{
     background: #585858;
     color: #fff;
   }
