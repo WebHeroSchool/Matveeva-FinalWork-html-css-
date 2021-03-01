@@ -1,0 +1,49 @@
+.works__title{
+  font: 800 25px/30px 'Montserrat_Bold', sans-serif;
+  color: #585858;
+  margin-bottom: 5%;
+  padding-top: 37px;
+  letter-spacing: 0.2px;
+}
+.work__tilda, .works__game{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.button{
+  text-decoration: none;
+  padding: 21px 37px;
+  background: #330099;
+  border-radius: 50px;
+  color: #FFDA45;
+  font: 800 20px/24px 'Montserrat_Bold', sans-serif;
+  margin-bottom: 5%;
+  transition: 1s ease;
+}
+.button:hover{
+  background: #585858;
+  color: #fff;
+}
+.raband__img{
+  width: 30%;
+  height: 30%;
+  margin-bottom: 5%;
+}
+.borderline{
+  width: 100%;
+  height: 3px;
+  background: #FFDA45;
+  margin-bottom: 5%;
+}
+.imgs{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 5%;
+  margin-left: 5%;
+}
+.works__game{
+  background: #F9F9F9;
+}
